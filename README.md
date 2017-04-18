@@ -22,6 +22,6 @@ Open the project in your text editor. To see the project in the browser, open th
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/fernando-barbosa/PWA-ToDo-Demo/blob/master/LICENSE) file for details
 
 
