@@ -1,0 +1,19 @@
+<div ng-controller="MainController">
+	<form>
+		<div class="input-field col s12">
+	  		<input id="item_title" type="text" ng-model="todoText" class="validate">
+	  		<label for="item_title">Título</label>
+		</div>
+
+		<div class="input-field col s12">
+	      <textarea id="item_content" type="text" ng-model="todoContent" class="materialize-textarea"></textarea>
+	      <label for="item_content">Descrição</label>
+	    </div>
+
+	    <div class="col s12">
+		    <div class="right">
+				<button ng-click="addLocalStorage()" class="waves-effect light-green darken-4 btn" type="submit" value="submit" href="/#/list"> Salvar </button>
+			</div>
+		</div>
+	</form>
+</div>

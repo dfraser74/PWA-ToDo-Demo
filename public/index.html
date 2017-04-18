@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="todo">
+<head>
+	<base href="/">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="HandheldFriendly" content="true">
+	<!-- Add to home screen for Safari on iOS -->
+  	<meta name="apple-mobile-web-app-capable" content="yes">
+  	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+  	<meta name="apple-mobile-web-app-title" content="Tarefas">
+  	<!-- IMAGE ICON -->
+  	<link rel="apple-touch-icon" href="assets/images/icons/icon-152x152.png">
+  	<!-- Tile Icon for Windows -->
+  	<meta name="msapplication-TileImage" content="assets/images/icons/icon-144x144.png">
+  	<meta name="msapplication-TileColor" content="#254d16">
+
+	<title>Lista de Tarefas</title>
+
+	<link rel="manifest" href="/manifest.json">
+	<!-- MATERIAL ICONS FONT -->
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/material-shell.css">
+	<!-- CSS ASSETS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/materialize.min.css">
+</head>
+<body>
+	<header class="header">
+    	<h1 class="header__title">Lista de Tarefas</h1>
+  	</header>
+
+  	<main class="main">
+  		<div class="container">
+  			<div class="row">
+				<ng-view></ng-view>
+			</div>
+		</div>
+	</main>
+
+	<!-- JS ASSETS -->
+	<script type="text/javascript" src="assets/js/angular.js"></script>
+	<script type="text/javascript" src="assets/js/angular-route.js"></script>
+	<script type="text/javascript" src="assets/js/angular-resource.js"></script>
+	<script type="text/javascript" src="assets/js/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="assets/js/materialize.min.js"></script>
+	<!-- JS SERVICE WORK -->
+	<script type="text/javascript" src="/service-worker.js"></script>
+	<!-- JS MODULES -->
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/modules/app.config.js"></script>
+	<script type="text/javascript" src="js/modules/app.routes.js"></script>
+	<script type="text/javascript" src="js/modules/app.core.js"></script>
+	<script type="text/javascript" src="js/modules/app.services.js"></script>
+	<!-- JS CONTROLLERS -->
+	<script type="text/javascript" src="js/controllers/main.ctrl.js"></script>
+</body>
+</html>
