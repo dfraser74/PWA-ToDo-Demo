@@ -15,7 +15,7 @@ Open the project in your text editor. To see the project in the browser, open th
 * [AngularJS](https://angularjs.org/) - The web framework used
 * [Brackets](https://brackets.io) - The Text Editor
 
-## Authors
+## Author
 
 * **Fernando Barbosa** - [GitHub](https://github.com/fernando-barbosa)
 
